@@ -3,3 +3,15 @@ Due to the nature of SteamOS being immutable, the traditional way of installing 
 
 # So... why not install Java to $HOME?
 Great idea, and this is exactly what this script does. It takes a binary release of OpenJDK and extracts them to the home directory, and the java binary there gets added to PATH
+
+# GUIDE
+So... let's start.
+1. Download by using this command (saves the script at your download folder) or by right clicking on this [hyperlink](https://raw.githubusercontent.com/RushingAlien/java-deck/master/java-deck.sh) -> Save page as
+```bash
+curl -L https://raw.githubusercontent.com/RushingAlien/java-deck/master/java-deck.sh -o $(xdg-user-dir DOWNLOAD)/java-deck.sh
+```
+2. Make executable by right clicking the downloaded file -> properties > permissions tab > allow execute or the like. Or, by running this command
+```bash
+chmod +x $(xdg-user-dir DOWNLOAD)/java-deck.sh
+```
+3. reboot
