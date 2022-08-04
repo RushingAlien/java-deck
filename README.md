@@ -8,7 +8,7 @@ Great idea, and this is exactly what this script does. It takes a binary release
 So... let's start.
 
 ## GUI Guide (WIP)
-1. Right click on this [hyperlink](java-deck.sh) and then click "Save page as..." and save the file
+1. Right click on this [hyperlink](https://github.com/RushingAlien/java-deck/raw/master/java-deck.sh) and then click "Save page as..." and save the file
 
 2. In the Deck's file manager, Dolphin, right click on the file, and then click properties
 <img src=assets/properties.png width="500">
