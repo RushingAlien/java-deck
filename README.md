@@ -6,16 +6,9 @@ Great idea, and this is exactly what this script does. It takes a binary release
 
 # GUIDE
 So... let's start.
-1. Download by right clicking on this [hyperlink](https://raw.githubusercontent.com/RushingAlien/java-deck/master/java-deck.sh) > Save page as and save it with the name "java-deck.sh" at your download folder or by using this command (saves the script at your download folder)
+## GUI Guide (WIP)
+## Terminal Guide
+For you who uses the terminal, you can just copy and paste this to your terminal 
 ```bash
-curl -L https://raw.githubusercontent.com/RushingAlien/java-deck/master/java-deck.sh -o $(xdg-user-dir DOWNLOAD)/java-deck.sh
+JDK_URL=https://download.java.net/java/GA/jdk18.0.2/f6ad4b4450fd4d298113270ec84f30ee/9/GPL/openjdk-18.0.2_linux-x64_bin.tar.gz; JDK_VERSION=18.0.2; JAVA_PATH=$HOME/.local/java/jdk-$JDK_VERSION; echo "Creating Java directory"; [ -d $JAVA_PATH ] || mkdir -p $JAVA_PATH; echo "Downloading and extracting Java"; curl -L $JDK_URL | tar tvfz - -C $JAVA_PATH; echo "Putting Java binary to PATH"; cat $HOME/.bash_profile | grep "export PATH=\$PATH:$JAVA_PATH/bin" || echo "export PATH=\$PATH:$JAVA_PATH/bin" >> $HOME/.bash_profile;
 ```
-2. Make executable by right clicking the downloaded file > properties > permissions tab > allow execute or the like. Or, by running this command
-```bash
-chmod +x $(xdg-user-dir DOWNLOAD)/java-deck.sh
-```
-3. execute by right clicking on your file > run as program or by running this command
-```bash
-$(xdg-user-dir DOWNLOAD)/java-deck.sh
-```
-4. reboot
