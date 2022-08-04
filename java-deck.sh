@@ -9,4 +9,4 @@ echo "Creating Java directory"
 echo "Downloading and extracting Java"
 curl -L $JDK_URL | tar tvfz - -C $JAVA_PATH
 echo "Putting Java binary to PATH"
-cat $HOME/.bash_profile | grep "export PATH=\$PATH:$JAVA_PATH/bin" || echo "export PATH=\$PATH:$JAVA_PATH/bin" >> $HOME/.bash_profile
+echo $PATH | grep $JAVA_PATH || echo "export PATH=\$PATH:$JAVA_PATH/bin" >> $HOME/.bash_profile
