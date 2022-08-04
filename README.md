@@ -9,7 +9,7 @@ So... let's start.
 ## GUI Guide (WIP)
 1. Right click on this [hyperlink](https://github.com/RushingAlien/java-deck/raw/master/java-deck.sh) and then click "Save page as..." and save the file
 2. In the Deck's file manager, Dolphin, right click on the file, and then click properties
-![2](assets/properties.png)
+<img src=assets/properties.png width="300">
 3. In the properties dialog, go the the permissions tab and then click on "Is executable" and then click "Ok"
 ![3](assets/executable.png)
 4. Now right click the file again, and select "Run in Konsole"
