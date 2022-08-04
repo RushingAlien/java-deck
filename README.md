@@ -6,7 +6,7 @@ Great idea, and this is exactly what this script does. It takes a binary release
 
 # GUIDE
 So... let's start.
-1. Download by right clicking on this [hyperlink](https://raw.githubusercontent.com/RushingAlien/java-deck/master/java-deck.sh) > Save page as or by using this command (saves the script at your download folder)
+1. Download by right clicking on this [hyperlink](https://raw.githubusercontent.com/RushingAlien/java-deck/master/java-deck.sh) > Save page as and save it with the name "java-deck.sh" or by using this command (saves the script at your download folder)
 ```bash
 curl -L https://raw.githubusercontent.com/RushingAlien/java-deck/master/java-deck.sh -o $(xdg-user-dir DOWNLOAD)/java-deck.sh
 ```
